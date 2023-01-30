@@ -2,7 +2,7 @@
 A stock prediction model as a RESTful API using FastAPI to AWS EC2.
 Currently supports 3 stock tickers 'AAPL','GOOG', and 'MSFT'.
 
-## Instantiate server locally
+## Instantiate server
 Pull down repository, navigate to /src folder and run the following command:
 
 ``` 
@@ -18,7 +18,7 @@ curl \
 --header "Content-Type: application/json" \
 --request POST \
 --data '{"ticker":"MSFT", "days":7}' \
-http://0.0.0.0:8000/predict
+http://54.208.64.249:8000/predict
 ```
 
 ## AAPL
@@ -28,7 +28,7 @@ curl \
 --header "Content-Type: application/json" \
 --request POST \
 --data '{"ticker":"AAPL", "days":7}' \
-http://0.0.0.0:8000/predict
+http://54.208.64.249:8000/predict
 ```
 
 ## GOOG
@@ -38,7 +38,7 @@ curl \
 --header "Content-Type: application/json" \
 --request POST \
 --data '{"ticker":"GOOG", "days":7}' \
-http://0.0.0.0:8000/predict
+http://54.208.64.249:8000/predict
 ```
 
 
