@@ -86,10 +86,14 @@ curl \
 --data '{"ticker":"GOOG", "days":7}' \
 http://54.208.64.249:8000/predict
 ```
-# Documentation Resources
+## Documentation Resources
 If you wish to access the API documentation, go to the following link:
 
 ```
 http://54.208.64.249:8000/docs
 ```
 
+## Next Steps
+* Add support for other stock tickers (add train model call, save models to S3 buckets)
+* Add Containerization for ease of future deployment
+* Upgrade documentation for new functionality above
