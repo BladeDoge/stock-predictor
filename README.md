@@ -1,5 +1,5 @@
 # stock-predictor
-A stock prediction model as a RESTful API using FastAPI to AWS EC2.
+A stock prediction model, using a time series to predict stock prices, as a RESTful API using FastAPI deployed to AWS EC2.
 Currently supports 3 stock tickers 'AAPL','GOOG', and 'MSFT'.
 
 ## Instantiate server on AWS EC2
@@ -55,7 +55,7 @@ INFO:     Application startup complete.
 The server is now running. Clients can now hit the server API endpoint. 
 
 ## Use stock predicter as a client
-Open a terminal on your local machine and use the below curl calls to hit the server API endpoint.
+Open a terminal on your local machine and use the below curl calls to hit the server API endpoint. If you instantiate the server API endpoint locally, replace the ip address with 0.0.0.0:8000/predict.
 
 ### MSFT
 
